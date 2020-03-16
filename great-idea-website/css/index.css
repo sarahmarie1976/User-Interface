@@ -64,3 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	background-color: #e2dccd;
+
+}
+
+* {
+  color: #3C373B;  
+}
+
+.container {
+	margin: 0 auto;
+	width: 600;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
