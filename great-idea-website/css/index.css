@@ -65,22 +65,54 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body{
-	background-color: #e2dccd;
-
+html, body{
+	background-color: whitesmoke;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 * {
-  color: #3C373B;  
+	color: #3C373B;
+	box-sizing: border-box;  
 }
+
+
 
 .container {
 	margin: 0 auto;
 	width: 600;
+
+.navigation a {
+	margin: 0 6px;
+  border: 1px solid #eeebd9;
+  padding: 19px;
+  display: inline-block;
+  border-radius: 20px;
+  color: #eeebd9;
+  text-decoration: none;
+  margin-bottom: 20px;
+}	
+
+.content_2 {
+	border: 2px solid black;
+  margin: 1%;
+  width: 100%;
+}
+
+.content_2_box {
+    border: 2px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    width: 48%;
+    min-width: 250px;
 }
 
 button {
     margin: 0 auto;
     display: block;
     float: left;
+}
+
+.logo {
+	border-radius: 50%
 }
